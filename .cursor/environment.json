@@ -1,0 +1,11 @@
+{
+  "name": "HQ OS",
+  "install": "pnpm install --frozen-lockfile",
+  "terminals": [
+    {
+      "name": "dev",
+      "command": "pnpm dev"
+    }
+  ],
+  "ports": [3000]
+}
